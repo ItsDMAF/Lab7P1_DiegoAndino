@@ -145,12 +145,14 @@ static Scanner leer = new Scanner(System.in);
                     mat[i][j] = Math.max(mat[i][j-1],mat[i-1][j]);
                     
                 }
-                System.out.println(imprimir(mat));
-                return mat[mat.length-1][mat[0].length-1];
+
                 }
                 
             }
-            
+        System.out.println(imprimir(mat));
+        return mat[mat.length-1][mat[0].length-1];
+    } 
+}
         
     
     
